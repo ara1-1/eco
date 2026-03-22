@@ -1,41 +1,166 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Texto de Economía - Secundaria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economía - Material de Estudio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: auto;
+    }
+    .question {
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #fafafa;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
+
 <body>
-  <audio controls>
-  <source src="economia.mp3" type="audio/mpeg">
-  Tu navegador no soporta la reproducción de audio.
-</audio>
 
-  <h1>Economía</h1>
+<div class="container">
 
+  <!-- IMAGEN SUPERIOR -->
+  <div style="text-align:center; padding:20px 0;">
+    <img src="escudo.jpg" alt="Escudo institucional" style="max-width:140px; width:100%; height:auto;">
+    <h1>Economía – Material de Estudio</h1>
+  </div>
+
+  <!-- TEXTO ORIGINAL SIN MODIFICAR -->
+  <h2>Economía</h2>
   <p>
-    La economía es la ciencia que estudia cómo las personas, las empresas y los gobiernos utilizan recursos que son
-    limitados para satisfacer necesidades que parecen ilimitadas. En la vida diaria, todos tomamos decisiones
-    económicas: elegir qué comprar, cómo gastar nuestro dinero o incluso cómo usar nuestro tiempo.
+    La economía es la ciencia que estudia cómo las personas, las empresas y los gobiernos utilizan recursos que son limitados para satisfacer necesidades que parecen ilimitadas. En la vida diaria, todos tomamos decisiones económicas: elegir qué comprar, cómo gastar nuestro dinero o incluso cómo usar nuestro tiempo.
+  </p>
+  <p>
+    Los recursos —como el dinero, la tierra, el trabajo y las herramientas— no alcanzan para producir todo lo que queremos, por eso es necesario decidir qué producir, cómo producirlo y para quién producirlo.
+  </p>
+  <p>
+    Además, la economía también analiza cómo se intercambian bienes y servicios en los mercados. En estos espacios, compradores y vendedores interactúan y determinan los precios. Cuando los precios suben mucho, se produce inflación, un fenómeno que afecta el poder de compra de las personas.
+  </p>
+  <p>
+    Comprender la economía ayuda a tomar mejores decisiones, tanto personales como colectivas, y a entender cómo funciona el mundo que nos rodea.
   </p>
 
-  <p>
-    Los recursos —como el dinero, la tierra, el trabajo y las herramientas— no alcanzan para producir todo lo que
-    queremos, por eso es necesario decidir qué producir, cómo producirlo y para quién producirlo.
-  </p>
+  <!-- AUDIO -->
+  <div style="margin-top: 20px; padding: 15px; background: #eef2ff; border-radius: 8px;">
+    <h2>Audio de la explicación</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
+  </div>
 
-  <p>
-    Además, la economía también analiza cómo se intercambian bienes y servicios en los mercados. En estos espacios,
-    compradores y vendedores interactúan y determinan los precios. Cuando los precios suben mucho, se produce
-    inflación, un fenómeno que afecta el poder de compra de las personas.
-  </p>
+  <!-- CUESTIONARIO NUEVO SOBRE EL TEXTO -->
+  <div style="margin-top:30px; padding:20px; background:#f7f7f7; border-radius:10px;">
+    <h2>Cuestionario sobre el texto</h2>
 
-  <p>
-    Comprender la economía ayuda a tomar mejores decisiones, tanto personales como colectivas, y a entender cómo
-    funciona el mundo que nos rodea.
-  </p>
+    <div class="question">
+      <p><strong>1. ¿Qué estudia la economía?</strong></p>
+      <label><input type="radio" name="q1"> Cómo se usan recursos limitados para satisfacer necesidades ilimitadas.</label><br>
+      <label><input type="radio" name="q1"> El clima.</label><br>
+      <label><input type="radio" name="q1"> La historia.</label>
+    </div>
+
+    <div class="question">
+      <p><strong>2. ¿Por qué debemos decidir qué producir?</strong></p>
+      <label><input type="radio" name="q2"> Porque los recursos son limitados.</label><br>
+      <label><input type="radio" name="q2"> Porque hay recursos infinitos.</label><br>
+      <label><input type="radio" name="q2"> Porque nadie consume bienes.</label>
+    </div>
+
+    <div class="question">
+      <p><strong>3. ¿Qué sucede en los mercados?</strong></p>
+      <label><input type="radio" name="q3"> Los precios se determinan por compradores y vendedores.</label><br>
+      <label><input type="radio" name="q3"> No ocurre ningún intercambio.</label><br>
+      <label><input type="radio" name="q3"> Solo se guardan productos.</label>
+    </div>
+
+    <div class="question">
+      <p><strong>4. ¿Qué es la inflación?</strong></p>
+      <label><input type="radio" name="q4"> Un aumento fuerte de precios.</label><br>
+      <label><input type="radio" name="q4"> Una caída de precios.</label><br>
+      <label><input type="radio" name="q4"> Un impuesto.</label>
+    </div>
+
+    <div class="question">
+      <p><strong>5. ¿Por qué es útil comprender economía?</strong></p>
+      <label><input type="radio" name="q5"> Para tomar mejores decisiones.</label><br>
+      <label><input type="radio" name="q5"> Para evitar estudiar.</label><br>
+      <label><input type="radio" name="q5"> Para no usar dinero.</label>
+    </div>
+
+    <button onclick="corregirEco()">Corregir</button>
+    <p id="resultadoEco" style="font-weight:bold; margin-top:10px;"></p>
+
+    <button onclick="mostrarEco()">Mostrar respuestas</button>
+    <button onclick="ocultarEco()">Ocultar respuestas</button>
+
+    <div id="respuestasEco" style="display:none; margin-top:15px; background:#eef2ff; padding:10px; border-radius:6px;">
+      <h3>Respuestas correctas</h3>
+      <ul>
+        <li>1. Cómo se usan recursos limitados para satisfacer necesidades ilimitadas.</li>
+        <li>2. Porque los recursos son limitados.</li>
+        <li>3. Los precios se determinan por compradores y vendedores.</li>
+        <li>4. Un aumento fuerte de precios.</li>
+        <li>5. Para tomar mejores decisiones.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function corregirEco() {
+  let correctas = { q1:1, q2:1, q3:1, q4:1, q5:1 };
+  let puntaje = 0;
+
+  for (let q in correctas) {
+    let seleccionada = document.querySelector(`input[name="${q}"]:checked`);
+    if (seleccionada && seleccionada.parentElement.textContent.trim().startsWith(
+      document.querySelectorAll(`input[name="${q}"]`)[correctas[q]-1].parentElement.textContent.trim()
+    )) {
+      puntaje++;
+    }
+  }
+
+  document.getElementById("resultadoEco").innerHTML =
+    "Puntaje obtenido: " + puntaje + " / 5";
+}
+
+function mostrarEco() {
+  document.getElementById("respuestasEco").style.display = "block";
+}
+
+function ocultarEco() {
+  document.getElementById("respuestasEco").style.display = "none";
+}
+</script>
 
 </body>
 </html>
-
-```
